@@ -1,0 +1,16 @@
+[
+  {
+    "name": "carregador",
+    "category": "acessórios",
+    "quantity": 5,
+    "price": 15.35,
+    "id": "11f0c3ee-ef88-47e9-a904-67fcd9211a4a"
+  },
+  {
+    "name": "fones",
+    "category": "acessórios",
+    "quantity": 10,
+    "price": 50,
+    "id": "0562cb71-2759-4cce-9dca-6c1c9a12f3fd"
+  }
+]
