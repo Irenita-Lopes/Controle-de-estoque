@@ -33,10 +33,10 @@ A API oferece as seguintes funcionalidades:
 
 ### Passo 1: Clonar o Repositório
 
-Se você ainda não fez, clone este repositório para a sua máquina:
+Realize o clone deste repositório para a sua máquina:
 
 ```bash
-git clone https://github.com/
+git clone https://github.com/Irenita-Lopes/Controle-de-estoque
 cd controle-de-estoque
 ```
 
@@ -146,13 +146,14 @@ Você pode testar a API utilizando ferramentas como o **Postman** ou **Insomnia*
 ```
 
 ###  Importar a Collection no Postman:
-Na raiz deste projeto encontra-se o arquivo da colletion utilizada para testes.
-Abra o Postman.
-No canto superior esquerdo, clique no botão Import.
-Uma janela será aberta. Nela, clique na opção Raw text.
-Cole o conteúdo JSON copiado da sua collection no campo de texto.
-Clique no botão Continue.
-Agora, clique em Import.
+[Na raiz deste projeto encontra-se o arquivo da colletion utilizada para testes.](https://github.com/Irenita-Lopes/Controle-de-estoque/blob/main/Controle%20de%20estoque-collection-postman)
+
+* Abra o Postman.
+* No canto superior esquerdo, clique no botão Import.
+* Uma janela será aberta. Nela, clique na opção Raw text.
+* Cole o conteúdo JSON copiado da sua collection no campo de texto.
+* Clique no botão Continue.
+* Agora, clique em Import.
 
 ## Estrutura de Arquivos
 
@@ -161,11 +162,10 @@ Agora, clique em Import.
 - **src/router/status.routes.ts**: Define a rota de status do servidor.
 - **src/services/productsService.ts**: Contém funções para ler e salvar os produtos no arquivo JSON.
 - **src/utils/interfaces/IProduct.ts**: Define a interface para o produto.
-- **src/utils/interfaces/IGetProduct.ts**: Define a interface para os parâmetros de busca.
 
 ## Arquivo JSON de Produtos
 
-O inventário de produtos é armazenado em um arquivo **`products.json`**, localizado na raiz do projeto. Este arquivo será criado automaticamente na primeira vez que a aplicação for executada.
+O inventário de produtos é armazenado em um arquivo **`products.json`**, localizado em `src/services` Este arquivo será criado automaticamente na primeira vez que a aplicação for executada.
 
 ## Scripts
 
